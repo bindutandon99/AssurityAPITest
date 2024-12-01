@@ -1,0 +1,20 @@
+2024-12-01 16:22:55.089 +13:00 [INF] BeforeTestRun: initializing Resources
+2024-12-01 16:22:55.426 +13:00 [INF] Test Report initialized is at: C:\AssurityTests\AssurityAPITests\Reports\ExtentSparkReport_test_20241201_162255.html
+2024-12-01 16:22:55.429 +13:00 [INF] BeforeFeature: Starting feature - Trademe Categories
+2024-12-01 16:22:55.465 +13:00 [INF] Starting scenario: Verify the category name and other details from API response
+2024-12-01 16:22:55.706 +13:00 [INF] The request is sent with https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=true and method is Get 
+2024-12-01 16:22:56.037 +13:00 [INF] Step - When The user sends API request with category "6327" and   catalogue "true"  passed
+2024-12-01 16:22:56.041 +13:00 [INF] API response status code is 200 
+2024-12-01 16:22:56.049 +13:00 [INF] Step - Then status code should be 200  passed
+2024-12-01 16:22:56.084 +13:00 [INF] Category Name from API Response is Carbon credits
+2024-12-01 16:22:56.085 +13:00 [INF] Step - Then the response should have category name as "Carbon credits"  passed
+2024-12-01 16:22:56.086 +13:00 [INF] Value of CanReList from API Response is True
+2024-12-01 16:22:56.089 +13:00 [INF] Step - Then the response should have CanRelist value  as "true"  passed
+2024-12-01 16:22:56.090 +13:00 [INF] For Promotion : Gallery , The description text is Description: Good position in category
+2024-12-01 16:22:56.091 +13:00 [INF] The Promotion Description text from API response is Good position in category
+2024-12-01 16:22:56.091 +13:00 [INF] Step - Then the promotion "Gallery" should contain text "Good position in category"  passed
+2024-12-01 16:22:56.092 +13:00 [INF] Passed Scenario
+2024-12-01 16:22:56.092 +13:00 [INF] AfterScenario: Finished scenario - Verify the category name and other details from API response
+2024-12-01 16:22:56.100 +13:00 [INF] AfterFeature: Completed feature execution.
+2024-12-01 16:22:56.101 +13:00 [INF] AfterTestRun: Cleaning up resources...
+2024-12-01 16:23:01.024 +13:00 [INF] Test Report finalized.
